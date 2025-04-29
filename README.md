@@ -32,6 +32,8 @@ This project showcases real-world experience building, testing, serving, and dep
 ```
 ---
 
+---
+
 ## 🧠 Use Case
 
 > Predict species of an Iris flower using its sepal and petal measurements.  
@@ -137,6 +139,71 @@ dvc push
 ```bash
 pytest tests/
 ```
+
+Here's your improved and visually appealing version of the content for the README file:
+
+---
+
+## 🛠️ Commands to Run in Terminal
+
+### Step 1: Set Up the Environment
+- **Create a virtual environment:**
+  ```bash
+  python -m venv venv
+  ```
+- **Activate the virtual environment:**
+  - On **Windows**:
+    ```bash
+    venv\Scripts\activate
+    ```
+  - On **macOS/Linux**:
+    ```bash
+    source venv/bin/activate
+    ```
+- **Install the required dependencies:**
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+---
+
+### Step 2: Train the Model
+- **Run the training script to train and save the model:**
+  ```bash
+  python src/train.py
+  ```
+
+---
+
+### Step 3: Start the FastAPI Server
+- **Run the FastAPI application:**
+  ```bash
+  uvicorn app.main:app --reload
+  ```
+- The server will start at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+---
+
+### Step 4: Test the API
+- **Open the Swagger UI in your browser:**
+  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- **Test the `/` and `/predict` endpoints using the Swagger UI.**
+
+---
+
+### Step 5: Run Tests
+- **Run the test suite to verify the API functionality:**
+  ```bash
+  pytest tests/
+  ```
+
+---
+
+### Step 6: Debugging (if needed)
+- **Check server logs for errors.**
+- **Ensure the model file `models/model.pkl` exists and is accessible.**
+
+---
 
 ---
 
