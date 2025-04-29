@@ -1,4 +1,3 @@
-```markdown
 # 🚀 MLOps End-to-End Machine Learning Project
 
 A complete production-grade Machine Learning project powered by **MLOps** principles: automation, reproducibility, scalability, and cloud deployment.  
@@ -214,8 +213,10 @@ http://<VM_EXTERNAL_IP>:8000/docs
 ---
 
 ## 📸 Screenshots
+Images of Swagger UI
+![image](https://github.com/user-attachments/assets/2fd0d1b7-e367-41a7-aef0-f67df274902c)
 
-<Insert images of Swagger UI, GitHub CI run, terminal output, GCP instance>
+![image](https://github.com/user-attachments/assets/5d00562f-1e29-409e-b2ba-baf1c4e42a66)
 
 ---
 
